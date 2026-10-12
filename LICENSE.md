@@ -53,11 +53,11 @@ Trabalho próprio deste acervo:
 
 Material da Dragino (esquemático, manuais e imagem de firmware):
 
-> DRAGINO. *LoRa ST Sensor Node v2.0 — esquemático*, www.dragino.com,
+> DRAGINO. *LoRa ST Sensor Node v2.0 — esquemático*, <https://www.dragino.com>,
 > CC BY-SA 3.0.
 >
 > DRAGINO. *LSN50 LoRaWAN Sensor Node User Manual v1.7.4* e
-> *Dragino LoRa AT Command Sets v1.6.3*, www.dragino.com.
+> *Dragino LoRa AT Command Sets v1.6.3*, <https://www.dragino.com>.
 
 Ferramentas de terceiros usadas na análise (Capstone, IntelHex, PlatformIO,
 GNU Arm Embedded Toolchain, Poppler, pandoc e demais) mantêm suas próprias
