@@ -86,8 +86,15 @@ firecrawl.config.*
 /out/
 /scratch/
 
-# Artefatos de compilacao de firmware (Keil MDK e STM32CubeIDE)
-# As imagens .hex distribuiveis em FIRMWARE/ NAO sao ignoradas.
+# ---------------------------------------------------------------------------
+# Artefatos de compilacao de firmware
+#
+# As imagens .hex distribuidas em FIRMWARE/ e os .bin/.hex gerados a mao que
+# forem publicados no acervo NAO sao ignorados: eles sao a fonte da verdade.
+# Ignoramos apenas a arvore de objetos e os produtos intermediarios de build.
+# ---------------------------------------------------------------------------
+
+# Keil MDK / STM32CubeIDE
 *.o
 *.d
 *.crf
@@ -106,6 +113,27 @@ RTE/
 Debug/
 Release/
 
+# PlatformIO (projeto em firmware/)
+.pio/
+.pioenvs/
+.piolibdeps/
+firmware/.pio/
+compile_commands.json
+.cache/
+.clangd/
 
-api.txt
+# Depuracao / rastreamento
+*.svd
+*.trace
+openocd.log
+
+# ---------------------------------------------------------------------------
+# Ambiente de ferramentas do repositorio
+# ---------------------------------------------------------------------------
+
+# Virtualenv e caches de analise estatica
+.venv/
+venv/
+.ruff_cache/
+.hypothesis/
 

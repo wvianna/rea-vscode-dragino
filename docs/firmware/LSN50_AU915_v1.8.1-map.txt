@@ -1,0 +1,244 @@
+]633;E;echo "# Evidencia estatica extraida de FIRMWARE/LSN50_AU915_v1.8.1.hex";ee7faa4b-caa1-4505-86cd-99114f6fecca]633;C# Evidencia estatica extraida de FIRMWARE/LSN50_AU915_v1.8.1.hex
+# sha256 do hex: 25a15824fb5d64b9ed984d41d674fc42396e44bbc8b09da1286ad644a6abd15b
+# gerado por: python3 tools/analyze_firmware.py FIRMWARE/LSN50_AU915_v1.8.1.hex
+
+## Mapa de memoria
+  0x08000000 - 0x08015b90  ( 88976 B)
+  total: 88976 B (86.9 KiB)
+
+## Tabela de vetores
+  [00] Initial_SP   = 0x20001dc0
+  [01] Reset                = 0x080000d4 (thumb)
+  [02] NMI                  = 0x08009a54 (thumb)
+  [03] HardFault            = 0x08007abc (thumb)
+  [11] SVCall               = 0x0800c912 (thumb)
+  [14] PendSV               = 0x0800a96c (thumb)
+  [15] SysTick              = 0x0800ec00 (thumb)
+  [16] IRQWWDG(0)           = 0x080000e6 (thumb)
+  [17] IRQPVD(1)            = 0x080000e6 (thumb)
+  [18] IRQRTC(2)            = 0x0800b262 (thumb)
+  [19] IRQFLASH(3)          = 0x080000e6 (thumb)
+  [20] IRQRCC(4)            = 0x080000e6 (thumb)
+  [21] IRQEXTI0_1(5)        = 0x08003828 (thumb)
+  [22] IRQEXTI2_3(6)        = 0x08003838 (thumb)
+  [23] IRQEXTI4_15(7)       = 0x08003848 (thumb)
+  [24] IRQTSC(8)            = 0x080000e6 (thumb)
+  [25] IRQDMA1_Ch1(9)       = 0x080000e6 (thumb)
+  [26] IRQDMA1_Ch2_3(10)    = 0x080000e6 (thumb)
+  [27] IRQDMA1_Ch4_7(11)    = 0x08002a38 (thumb)
+  [28] IRQADC_COMP(12)      = 0x080000e6 (thumb)
+  [29] IRQLPTIM1(13)        = 0x080000e6 (thumb)
+  [30] IRQUSART4_USART5(14) = 0x080000e6 (thumb)
+  [31] IRQTIM2(15)          = 0x080000e6 (thumb)
+  [32] IRQTIM3(16)          = 0x0800ecf0 (thumb)
+  [33] IRQTIM6(17)          = 0x080000e6 (thumb)
+  [34] IRQTIM7(18)          = 0x080000e6 (thumb)
+  [36] IRQTIM21(20)         = 0x0800ece8 (thumb)
+  [37] IRQI2C3(21)          = 0x080000e6 (thumb)
+  [38] IRQTIM22(22)         = 0x080000e6 (thumb)
+  [39] IRQI2C1(23)          = 0x080000e6 (thumb)
+  [40] IRQI2C2(24)          = 0x080000e6 (thumb)
+  [41] IRQSPI1(25)          = 0x080000e6 (thumb)
+  [42] IRQSPI2(26)          = 0x080000e6 (thumb)
+  [43] IRQUSART1(27)        = 0x0800f6ec (thumb)
+  [44] IRQUSART2(28)        = 0x080000e6 (thumb)
+  [45] IRQLPUART1_RNG(29)   = 0x0800b1fc (thumb)
+  [47] IRQUSB(31)           = 0x080000e6 (thumb)
+  vetores nao nulos: 37 de 48
+
+## Desmontagem das rotinas citadas no relatorio
+
+## Desmontagem 0x080000d4 (48 B)
+  0x080000d4: ldr      r0, [pc, #0x10]
+  0x080000d6: blx      r0
+  0x080000d8: ldr      r0, [pc, #0x10]
+  0x080000da: bx       r0
+  0x080000dc: b        #0x80000dc
+  0x080000de: b        #0x80000de
+  0x080000e0: b        #0x80000e0
+  0x080000e2: b        #0x80000e2
+  0x080000e4: b        #0x80000e4
+  0x080000e6: b        #0x80000e6
+  0x080000e8: ldc      p8, c0, [r5], {0}
+  0x080000ec: lsls     r1, r0, #3
+  0x080000ee: lsrs     r0, r0, #0x20
+  0x080000f0: push     {r4, r5, lr}
+  0x080000f2: mov      r3, r1
+  0x080000f4: mov      r1, r0
+  0x080000f6: movs     r0, #0
+  0x080000f8: movs     r2, #0x20
+  0x080000fa: movs     r4, #1
+  0x080000fc: b        #0x8000112
+  0x080000fe: mov      r5, r1
+  0x08000100: lsrs     r5, r2
+  0x08000102: cmp      r5, r3
+
+## Desmontagem 0x08013e34 (144 B)
+  0x08013e34: ldr      r4, [r2, r5]
+  0x08013e36: lsrs     r1, r0, #0x20
+  0x08013e38: movs     r6, r0
+  0x08013e3a: movs     r0, r0
+  0x08013e3c: asrs     r1, r4, #0x1d
+  0x08013e3e: lsrs     r1, r0, #0x20
+  0x08013e40: asrs     r1, r4, #0x1d
+  0x08013e42: lsrs     r1, r0, #0x20
+  0x08013e44: lsls     r1, r2, #0x1c
+  0x08013e46: lsrs     r1, r0, #0x20
+  0x08013e48: ldrsb    r0, [r4, r7]
+  0x08013e4a: lsrs     r1, r0, #0x20
+  0x08013e4c: ldrh     r0, [r4, r3]
+  0x08013e4e: lsrs     r1, r0, #0x20
+  0x08013e50: movs     r1, r0
+  0x08013e52: movs     r0, r0
+  0x08013e54: asrs     r1, r4, #0x1d
+  0x08013e56: lsrs     r1, r0, #0x20
+  0x08013e58: asrs     r1, r4, #0x1d
+  0x08013e5a: lsrs     r1, r0, #0x20
+  0x08013e5c: asrs     r5, r3, #0x1d
+  0x08013e5e: lsrs     r1, r0, #0x20
+  0x08013e60: ldr      r7, [pc, #0x280]
+  0x08013e62: lsrs     r1, r0, #0x20
+  0x08013e64: ldrh     r0, [r2, r0]
+  0x08013e66: lsrs     r1, r0, #0x20
+  0x08013e68: movs     r4, r0
+  0x08013e6a: movs     r0, r0
+  0x08013e6c: asrs     r1, r4, #0x1d
+  0x08013e6e: lsrs     r1, r0, #0x20
+  0x08013e70: asrs     r1, r4, #0x1d
+  0x08013e72: lsrs     r1, r0, #0x20
+  0x08013e74: lsrs     r1, r7, #6
+  0x08013e76: lsrs     r1, r0, #0x20
+  0x08013e78: str      r4, [r7, r5]
+  0x08013e7a: lsrs     r1, r0, #0x20
+  0x08013e7c: ldr      r4, [r4, r5]
+  0x08013e7e: lsrs     r1, r0, #0x20
+  0x08013e80: movs     r5, r0
+  0x08013e82: movs     r0, r0
+  0x08013e84: lsls     r7, r6, #0x1f
+  0x08013e86: lsrs     r1, r0, #0x20
+  0x08013e88: lsrs     r5, r0, #0x20
+  0x08013e8a: lsrs     r1, r0, #0x20
+  0x08013e8c: asrs     r1, r4, #0x1d
+  0x08013e8e: lsrs     r1, r0, #0x20
+  0x08013e90: ldr      r6, [pc, #0x300]
+  0x08013e92: lsrs     r1, r0, #0x20
+  0x08013e94: ldr      r4, [r5, r5]
+  0x08013e96: lsrs     r1, r0, #0x20
+  0x08013e98: movs     r7, r0
+  0x08013e9a: movs     r0, r0
+  0x08013e9c: lsls     r5, r7, #0xe
+  0x08013e9e: lsrs     r1, r0, #0x20
+  0x08013ea0: lsls     r3, r1, #0xf
+  0x08013ea2: lsrs     r1, r0, #0x20
+  0x08013ea4: asrs     r1, r4, #0x1d
+  0x08013ea6: lsrs     r1, r0, #0x20
+  0x08013ea8: ldr      r6, [pc, #0x3a0]
+  0x08013eaa: lsrs     r1, r0, #0x20
+  0x08013eac: ldrh     r0, [r0, r3]
+  0x08013eae: lsrs     r1, r0, #0x20
+  0x08013eb0: movs     r7, r0
+  0x08013eb2: movs     r0, r0
+  0x08013eb4: lsls     r7, r5, #0xf
+  0x08013eb6: lsrs     r1, r0, #0x20
+  0x08013eb8: lsls     r5, r7, #0xf
+  0x08013eba: lsrs     r1, r0, #0x20
+  0x08013ebc: asrs     r1, r4, #0x1d
+  0x08013ebe: lsrs     r1, r0, #0x20
+  0x08013ec0: ldr      r4, [r3, r2]
+  0x08013ec2: lsrs     r1, r0, #0x20
+
+## Desmontagem 0x08010c2c (64 B)
+  0x08010c2c: push     {r4, lr}
+  0x08010c2e: ldr      r0, [pc, #0xc]
+  0x08010c30: ldrb     r0, [r0]
+  0x08010c32: bl       #0x8012dac
+  0x08010c36: movs     r0, #0
+  0x08010c38: pop      {r4, pc}
+  0x08010c3a: movs     r0, r0
+  0x08010c3c: lsls     r3, r1, #5
+  0x08010c3e: movs     r0, #0
+  0x08010c40: push     {r3, lr}
+  0x08010c42: mov      r2, sp
+  0x08010c44: adr      r1, #0x30
+  0x08010c46: bl       #0x801354c
+  0x08010c4a: cmp      r0, #1
+  0x08010c4c: bne      #0x8010c72
+  0x08010c4e: mov      r0, sp
+  0x08010c50: ldrb     r0, [r0]
+  0x08010c52: subs     r1, r0, #1
+  0x08010c54: cmp      r1, #8
+  0x08010c56: bhi      #0x8010c68
+  0x08010c58: ldr      r1, [pc, #0x20]
+  0x08010c5a: strb     r0, [r1]
+  0x08010c5c: adr      r0, #0x20
+  0x08010c5e: bl       #0x800f06c
+  0x08010c62: cmp      r0, #0
+  0x08010c64: bne      #0x8010c5c
+  0x08010c66: pop      {r3, pc}
+  0x08010c68: adr      r0, #0x38
+
+## Desmontagem 0x080111fc (80 B)
+  0x080111fc: push     {r1, r2, r3, r4, r5, r6, r7, lr}
+  0x080111fe: mov      r4, r0
+  0x08011200: bl       #0x8000266
+  0x08011204: uxtb     r6, r0
+  0x08011206: movs     r5, #0
+  0x08011208: add      r2, sp, #4
+  0x0801120a: adr      r1, #0x84
+  0x0801120c: mov      r0, r4
+  0x0801120e: bl       #0x801354c
+  0x08011212: cmp      r0, #1
+  0x08011214: beq      #0x8011224
+  0x08011216: adr      r0, #0x7c
+  0x08011218: bl       #0x800f06c
+  0x0801121c: b        #0x8011272
+  0x0801121e: subs     r6, r6, #1
+  0x08011220: uxtb     r6, r6
+  0x08011222: adds     r4, r4, #1
+  0x08011224: ldrb     r0, [r4]
+  0x08011226: subs     r0, #0x30
+  0x08011228: cmp      r0, #9
+  0x0801122a: bls      #0x801121e
+  0x0801122c: ldrb     r0, [r4]
+  0x0801122e: cmp      r0, #0x3a
+  0x08011230: bne      #0x8011216
+  0x08011232: adds     r7, r4, #1
+  0x08011234: subs     r6, r6, #1
+  0x08011236: uxtb     r4, r6
+  0x08011238: movs     r0, #0
+  0x0801123a: mov      r1, sp
+  0x0801123c: strb     r0, [r1, #2]
+  0x0801123e: ldr      r6, [pc, #0x7c]
+  0x08011240: b        #0x801126a
+  0x08011242: lsls     r0, r5, #1
+  0x08011244: ldrb     r2, [r7, r0]
+  0x08011246: mov      r1, sp
+  0x08011248: strb     r2, [r1]
+  0x0801124a: adds     r0, r0, r7
+
+## Desmontagem 0x08011760 (8 B)
+  0x08011760: movs     r0, #1
+  0x08011762: bx       lr
+  0x08011764: push     {r4, lr}
+
+## Desmontagem 0x08003828 (48 B)
+  0x08003828: push     {r4, lr}
+  0x0800382a: movs     r0, #1
+  0x0800382c: bl       #0x8004a08
+  0x08003830: movs     r0, #2
+  0x08003832: bl       #0x8004a08
+  0x08003836: pop      {r4, pc}
+  0x08003838: push     {r4, lr}
+  0x0800383a: movs     r0, #4
+  0x0800383c: bl       #0x8004a08
+  0x08003840: movs     r0, #8
+  0x08003842: bl       #0x8004a08
+  0x08003846: pop      {r4, pc}
+  0x08003848: push     {r3, r4, r5, r6, r7, lr}
+  0x0800384a: ldr      r4, [pc, #0x12c]
+  0x0800384c: ldr      r0, [r4, #0x14]
+  0x0800384e: ldr      r7, [pc, #0x12c]
+  0x08003850: lsls     r0, r0, #0x1b
+  0x08003852: movs     r6, #1
+  0x08003854: ldr      r5, [pc, #0x128]
+  0x08003856: cmp      r0, #0

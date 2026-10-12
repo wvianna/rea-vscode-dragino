@@ -121,42 +121,72 @@ def at_table(ih: IntelHex) -> None:
     """Reconstroi a tabela de descritores de comandos AT.
 
     Layout observado (stride 0x18 = 24 B por comando):
-      +0x00  char*  texto de ajuda  ("AT+XXX: ...")
-      +0x04  char*  nome curto      ("+XXX")
-      +0x08  uint32 id/flags
-      +0x0c  uint32 handler A
-      +0x10  uint32 handler B
-      +0x14  uint32 handler C
+      +0x00  char*  nome curto      ("+XXX", ou "Z" para o ATZ)
+      +0x04  uint32 id/flags
+      +0x08  uint32 handler A       (get: "AT+XXX=?")
+      +0x0c  uint32 handler B       (set/run: "AT+XXX=.." / "AT+XXX")
+      +0x10  uint32 handler C       (help: "AT+XXX?")
+      +0x14  char*  texto de ajuda  ("AT+XXX: ...")
     """
-    starts = [s for s, _ in segments(ih)]
-    lo, hi = min(starts), max(starts)
-    hits: list[tuple[int, str, str, int]] = []
-    for a in range(0, hi - 24, 4):
+    segs = segments(ih)
+    lo = min(s for s, _ in segs)
+    hi = max(e for _, e in segs)
+    hits: list[tuple[int, str, str, int, list[int]]] = []
+    for a in range(lo, hi - 0x18, 4):
         try:
-            p_help = read_word(ih, a)
-            p_name = read_word(ih, a + 4)
-            flags = read_word(ih, a + 8)
+            p_name = read_word(ih, a)
+            flags = read_word(ih, a + 4)
+            fns = [read_word(ih, a + 8 + 4 * k) for k in range(3)]
+            p_help = read_word(ih, a + 0x14)
         except Exception:
             continue
-        if not (lo <= p_help < hi and lo <= p_name < hi):
+        if not (lo <= p_name < hi and lo <= p_help < hi):
             continue
+        name = cstr(ih, p_name, 12)
         help_txt = cstr(ih, p_help, 80)
-        name = cstr(ih, p_name, 8)
-        if not help_txt.startswith(("AT", "ERROR")) or not name.startswith("+"):
+        if not (name.startswith("+") or name in ("Z", "?")):
             continue
-        hits.append((a, help_txt, name, flags))
+        if not help_txt.startswith("AT"):
+            continue
+        hits.append((a, help_txt, name, flags, fns))
 
     if not hits:
         print("(nenhuma entrada encontrada)")
         return
-    # stride = menor diferenca consistente entre entradas consecutivas
-    strides = [b[0] - a[0] for a, b in zip(hits, hits[1:])]
-    stride = min(strides) if strides else 0
-    print(f"## Tabela de comandos AT: {len(hits)} descritores, stride {stride:#x}")
-    for a, help_txt, name, flags in hits:
-        fns = [read_word(ih, a + 12 + 4 * k) for k in range(3)]
+    print(f"## Tabela de comandos AT: {len(hits)} descritores, stride 0x18")
+    print(f"   base: 0x{hits[0][0]:08x} .. 0x{hits[-1][0]:08x}")
+    print()
+    print(f"   {'endereco':<12} {'nome':<12} {'id':>3}  {'handlerA':<12} {'handlerB':<12}"
+          f" {'handlerC':<12} ajuda")
+    for a, help_txt, name, flags, fns in hits:
         fn_txt = " ".join(f"0x{f:08x}" for f in fns)
-        print(f"  0x{a:08x}  {name:<12} id={flags:<3}  {help_txt:<70} {fn_txt}")
+        print(f"  0x{a:08x}  {name:<14} {flags:>3}  {fn_txt}  {help_txt}")
+
+
+def constants(ih: IntelHex) -> None:
+    """Conta palavras de 32 bits que apontam para perifericos/RAM/EEPROM."""
+    regions = [
+        ("RAM 0x2000_0000", 0x20000000, 0x20008000),
+        ("Perifericos APB/AHB 0x4000_0000", 0x40000000, 0x40080000),
+        ("IO/GPIO 0x5000_0000", 0x50000000, 0x50002000),
+        ("Data EEPROM 0x0808_0000", 0x08080000, 0x08082000),
+        ("SYSCFG/Other 0x4001_0000", 0x40010000, 0x40030000),
+    ]
+    hits: dict[str, set[int]] = {name: set() for name, _, _ in regions}
+    for start, end in segments(ih):
+        for a in range(start, end - 4, 4):
+            w = read_word(ih, a)
+            for name, lo, hi in regions:
+                if lo <= w < hi:
+                    hits[name].add(w)
+    print("## Constantes de endereco encontradas no codigo")
+    for name, _, _ in regions:
+        vals = sorted(hits[name])
+        print(f"\n  {name}: {len(vals)} valores distintos")
+        for v in vals[:40]:
+            print(f"    {v:#010x}")
+        if len(vals) > 40:
+            print(f"    ... (+{len(vals) - 40})")
 
 
 def dump_words(ih: IntelHex, addr: int, length: int) -> None:
@@ -182,6 +212,9 @@ def dump_words(ih: IntelHex, addr: int, length: int) -> None:
 def disasm(ih: IntelHex, addr: int, length: int) -> None:
     md = Cs(CS_ARCH_ARM, CS_MODE_THUMB | CS_MODE_MCLASS)
     md.detail = False
+    if addr & 1:  # convencao Thumb: bit 0 = 1, codigo comeca no endereco par
+        print(f"   (endereco Thumb 0x{addr:08x} realinhado para 0x{addr & ~1:08x})")
+        addr &= ~1
     blob = ih.tobinstr(start=addr, end=addr + length - 1)
     print(f"\n## Desmontagem 0x{addr:08x} ({length} B)")
     for ins in md.disasm(blob, addr):
@@ -227,6 +260,8 @@ def main() -> int:
     ap.add_argument("--words", help="ADDR,LEN: despeja palavras anotadas")
     ap.add_argument("--at-table", action="store_true",
                     help="reconstroi a tabela de descritores de comandos AT")
+    ap.add_argument("--consts", action="store_true",
+                    help="lista constantes de endereco (RAM/perifericos/EEPROM)")
     ap.add_argument("--find", action="append", default=[])
     ap.add_argument("--refs", action="append", default=[],
                     help="texto: mostra tambem os enderecos de flash que o referenciam")
@@ -235,7 +270,7 @@ def main() -> int:
     ih = load(args.hexfile)
     flash_base = min(s for s, _ in segments(ih))
     explicit = (args.vectors or args.map or args.strings or args.disasm
-                or args.words or args.at_table or args.find or args.refs)
+                or args.words or args.at_table or args.consts or args.find or args.refs)
 
     if not explicit or args.map:
         dump_map(ih)
@@ -263,6 +298,8 @@ def main() -> int:
         dump_words(ih, int(parts[0], 0), int(parts[1], 0) if len(parts) > 1 else 64)
     if args.at_table:
         at_table(ih)
+    if args.consts:
+        constants(ih)
     return 0
 
 

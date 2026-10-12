@@ -1,0 +1,24 @@
+{
+  "build": {
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DSTM32L072xx",
+    "f_cpu": "16000000L",
+    "mcu": "stm32l072cz",
+    "product_line": "STM32L072xx"
+  },
+  "debug": {
+    "jlink_device": "STM32L072CZ",
+    "svd_path": "STM32L072xx.svd"
+  },
+  "frameworks": [
+    "cmsis"
+  ],
+  "name": "Dragino LSN50v2 (STM32L072CZT6)",
+  "upload": {
+    "maximum_ram_size": 20480,
+    "maximum_size": 196608,
+    "protocol": "stlink"
+  },
+  "url": "https://www.dragino.com/products/lora-lorawan-end-node/item/147-lsn50.html",
+  "vendor": "Dragino"
+}

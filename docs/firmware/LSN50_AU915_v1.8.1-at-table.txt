@@ -1,0 +1,115 @@
+## Tabela de comandos AT: 61 descritores, stride 0x18
+   base: 0x08013e34 .. 0x080143d4
+
+   endereco     nome          id  handlerA     handlerB     handlerC     ajuda
+  0x08013e34  +DEBUG           6  0x08011761 0x08011761 0x08010711  AT+DEBUG:Set more info input
+
+  0x08013e4c  Z                1  0x08011761 0x08011761 0x0801175d  ATZ: Trig a reset of the MCU
+
+  0x08013e64  +FDR             4  0x08011761 0x08011761 0x080109b9  AT+FDR: Reset Parameters to Factory Default, Keys Reserve
+
+  0x08013e7c  +DEUI            5  0x080107f7 0x08010805 0x08011761  AT+DEUI: Get or Set the Device EUI
+
+  0x08013e94  +APPEUI          7  0x080103bd 0x080103cb 0x08011761  AT+APPEUI: Get or Set the Application EUI
+
+  0x08013eac  +APPKEY          7  0x080103ef 0x080103fd 0x08011761  AT+APPKEY: Get or Set the Application Key
+
+  0x08013ec4  +DADDR           6  0x080107c9 0x080107d3 0x08011761  AT+DADDR: Get or Set the Device Address
+
+  0x08013edc  +NWKSKEY         8  0x08010dcd 0x08010ddb 0x08011761  AT+NWKSKEY: Get or Set the Network Session Key
+
+  0x08013ef4  +APPSKEY         8  0x08010423 0x08010431 0x08011761  AT+APPSKEY: Get or Set the Application Session Key
+
+  0x08013f0c  +ADR             4  0x08010371 0x08010393 0x08011761  AT+ADR: Get or Set the Adaptive Data Rate setting. (0: off, 1: on)
+
+  0x08013f24  +TXP             4  0x08011339 0x0801135d 0x08011761  AT+TXP: Get or Set the Transmit Power (0-5, MAX:0, MIN:5, according to LoRaWAN S
+  0x08013f3c  +DR              3  0x08010741 0x08010765 0x08011761  AT+DR: Get or Set the Data Rate. (0-7 corresponding to DR_X)
+
+  0x08013f54  +DCS             4  0x080108fd 0x08010929 0x08011761  AT+DCS: Get or Set the ETSI Duty Cycle setting - 0=disable, 1=enable - Only for 
+  0x08013f6c  +PNM             4  0x08010e01 0x08010e23 0x08011761  AT+PNM: Get or Set the public network mode. (0: off, 1: on)
+
+  0x08013f84  +RX2FQ           6  0x080110c5 0x080110e5 0x08011761  AT+RX2FQ: Get or Set the Rx2 window frequency
+
+  0x08013f9c  +RX2DR           6  0x08011011 0x08011035 0x08011761  AT+RX2DR: Get or Set the Rx2 window data rate (0-7 corresponding to DR_X)
+
+  0x08013fb4  +RX1DL           6  0x08010fc9 0x08010fe9 0x08011761  AT+RX1DL: Get or Set the delay between the end of the Tx and the Rx Window 1 in 
+  0x08013fcc  +RX2DL           6  0x0801107d 0x0801109d 0x08011761  AT+RX2DL: Get or Set the delay between the end of the Tx and the Rx Window 2 in 
+  0x08013fe4  +JN1DL           6  0x08010b33 0x08010b55 0x08011761  AT+JN1DL: Get or Set the Join Accept Delay between the end of the Tx and the Joi
+  0x08013ffc  +JN2DL           6  0x08010bb1 0x08010bd1 0x08011761  AT+JN2DL: Get or Set the Join Accept Delay between the end of the Tx and the Joi
+  0x08014014  +NJM             4  0x08010d45 0x08010d59 0x08011761  AT+NJM: Get or Set the Network Join Mode. (0: ABP, 1: OTAA)
+
+  0x0801402c  +NWKID           6  0x08010cc1 0x08010d15 0x08011761  AT+NWKID: Get or Set the Network ID
+
+  0x08014044  +FCU             4  0x080113c1 0x080113e1 0x08011761  AT+FCU: Get or Set the Frame Counter Uplink
+
+  0x0801405c  +FCD             4  0x080108b5 0x080108d5 0x08011761  AT+FCD: Get or Set the Frame Counter Downlink
+
+  0x08014074  +CLASS           6  0x08010829 0x08010859 0x08011761  AT+CLASS: Get or Set the Device Class
+
+  0x0801408c  +JOIN            5  0x08011761 0x08011761 0x08010b29  AT+JOIN: Join network
+
+  0x080140a4  +NJS             4  0x08010da5 0x08011761 0x08011761  AT+NJS: Get the join status
+
+  0x080140bc  +SENDB           6  0x08011761 0x080111fd 0x08011761  AT+SENDB: Send hexadecimal data along with the application port
+
+  0x080140d4  +SEND            5  0x08011761 0x08011165 0x08011761  AT+SEND: Send text data along with the application port
+
+  0x080140ec  +RECVB           6  0x08010f79 0x08011761 0x08010f79  AT+RECVB: Print last received data in binary format (with hexadecimal values)
+
+  0x08014104  +RECV            5  0x08010f35 0x08011761 0x08010f35  AT+RECV: Print last received data in raw format
+
+  0x0801411c  +DWELLT          7  0x08010949 0x0801095d 0x08011761  AT+DWELLT: Get or set UplinkDwellTime
+
+  0x08014134  +RJTDC           6  0x08010e4d 0x08010e61 0x08011761  AT+RJTDC: Get or set the ReJoin data transmission interval in min
+
+  0x0801414c  +RPL             4  0x08010ec1 0x08010ed5 0x08011761  AT+RPL: Get or set response level
+
+  0x08014164  +VER             4  0x080119a5 0x08011761 0x08011761  AT+VER: Get current image version and Frequency Band
+
+  0x0801417c  +CFM             4  0x08011409 0x08011439 0x08011761  AT+CFM: Get or Set the confirmation mode (0-1)
+
+  0x08014194  +CFS             4  0x08011749 0x08011761 0x08011761  AT+CFS: Get confirmation status of the last AT+SEND (0-1)
+
+  0x080141ac  +SNR             4  0x08011851 0x08011761 0x08011761  AT+SNR: Get the SNR of the last received packet
+
+  0x080141c4  +RSSI            5  0x08011765 0x08011761 0x08011761  AT+RSSI: Get the RSSI of the last received packet
+
+  0x080141dc  +TDC             4  0x080112c9 0x080112dd 0x08011761  AT+TDC: Get or set the application data transmission interval in ms
+
+  0x080141f4  +PORT            5  0x080114d5 0x080114e5 0x08011761  AT+PORT: Get or set the application port
+
+  0x0801420c  +RX1WTO          7  0x08011861 0x08011875 0x08011761  AT+RX1WTO: Get or Set the number of symbols to detect and timeout from RXwindow1
+  0x08014224  +RX2WTO          7  0x080118a1 0x080118b5 0x08011761  AT+RX2WTO: Get or Set the number of symbols to detect and timeout from RXwindow2
+  0x0801423c  +DECRYPT         8  0x0801150d 0x0801152d 0x08011761  AT+DECRYPT: Get or Set the Decrypt the uplink payload(0:Disable,1:Enable)
+
+  0x08014254  +MOD             4  0x08010c2d 0x08010c41 0x08011761  AT+MOD:Get or Set the work mode
+
+  0x0801426c  +INTMOD1         8  0x080109e5 0x080109f9 0x08011761  AT+INTMOD1:Get or Set the trigger interrupt mode for PB14(0:Disable,1:falling or
+  0x08014284  +INTMOD2         8  0x08010a51 0x08010a65 0x08011761  AT+INTMOD2:Get or Set the trigger interrupt mode for PB15(0:Disable,1:falling or
+  0x0801429c  +INTMOD3         8  0x08010abd 0x08010ad1 0x08011761  AT+INTMOD3:Get or Set the trigger interrupt mode for PA4(0:Disable,1:falling or 
+  0x080142b4  +WEIGRE          7  0x08011761 0x08011761 0x08011a45  AT+WEIGRE:Set the weight to 0g
+
+  0x080142cc  +WEIGAP          7  0x080119c1 0x080119e9 0x08011761  AT+WEIGAP:Get or Set the GapValue of weight
+
+  0x080142e4  +5VT             4  0x08010335 0x08010349 0x08011761  AT+5VT:Get or Set extend the time of 5V power
+
+  0x080142fc  +SETCNT          7  0x08011761 0x08011121 0x08011761  AT+SETCNT: Get or set the count at present
+
+  0x08014314  +CHS             4  0x080106c9 0x080106d9 0x08011761  AT+CHS: Get or Set Frequency (Unit: Hz) for Single Channel Mode
+
+  0x0801432c  +CHE             4  0x0801056d 0x0801063d 0x08011761  AT+CHE: Get or Set eight channels mode,Only for US915,AU915,CN470
+
+  0x08014344  +GETSENSORVA    15  0x08011761 0x080116f1 0x08011761  AT+GETSENSORVALUE: Returns the current sensor value
+
+  0x0801435c  +DDETECT         8  0x080115f9 0x0801162d 0x08011761  AT+DDETECT: Get or set the downlink detection
+
+  0x08014374  +SETMAXNBTRA    14  0x080117e5 0x0801180d 0x08011761  AT+SETMAXNBTRANS: Get or set the max nbtrans in LinkADR
+
+  0x0801438c  +DISFCNTCHEC    13  0x08011559 0x08011579 0x08011761  AT+DISFCNTCHECK: Get or set the Downlink Frame Check(0:Enable,1:Disable)
+
+  0x080143a4  +DISMACANS      10  0x080115a9 0x080115c9 0x08011761  AT+DISMACANS: Get or set the MAC ANS switch(0:Enable,1:Disable)
+
+  0x080143bc  +RXDATEST        9  0x08011761 0x08011775 0x08011761  AT+RXDATEST: Set the downlink data detection
+
+  0x080143d4  +CFG             4  0x08011761 0x08011761 0x08010459  AT+CFG: Print all configurations
+
