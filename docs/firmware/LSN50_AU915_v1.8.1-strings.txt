@@ -1,0 +1,1428 @@
+
+## Strings ASCII (endereco: texto)
+  0x0800019c: )F2F
+  0x080001ce: >F<F
+  0x0800040a: @B)h
+  0x08000445: `8F~
+  0x0800049e: RB !O
+  0x0800062a: 8F1F
+  0x080006cc: *F#F
+  0x080006d8: 8F1F
+  0x0800072c: QA*F#F
+  0x08000877: F,I$
+  0x08000884: #C&CaF
+  0x080008ed: FP@q@
+  0x0800093f: &3FeB
+  0x080009f2: @BpGA
+  0x08000b98: 08 #
+  0x08000bfe: pGBh
+  0x08000c2b: &%xd
+  0x08000c4a: 9F F
+  0x08000d4e: !F(F
+  0x08000d90:  F9F
+  0x08000d9f: C,C7C
+  0x08000e20: (F!F
+  0x08000e2c: (F!F2F
+  0x08000edd: HpG8H
+  0x08000f7b: 'bi=F9F
+  0x08000f97: !OC?
+  0x08000fe3: Gl(#
+  0x08000ff9: `e`e(O
+  0x080010a1:  #FjF
+  0x080010b0: (F@!
+  0x080010f4: (F@!
+  0x0800110a: HI(F
+  0x08001114: (F@!
+  0x08001126: (F@!
+  0x08001237: ' xd
+  0x08001269: % xd
+  0x0800138c: eFDSs
+  0x0800141e: iF"F
+  0x0800143a: B\[xR
+  0x08001443: CBTI
+  0x0800145a: B\[xR
+  0x08001463: CBTI
+  0x08001488: C\mx[
+  0x08001490: +CCTI
+  0x080014ab: 2SxE\I
+  0x080014b2: k@Sp
+  0x080014c0: C\mx[
+  0x080014c8: +CCTI
+  0x080014e8: ]TSi[
+  0x080014fb: 2SxE\I
+  0x08001502: k@Sp
+  0x08001515: 2C|RxI
+  0x0800151c: S@Ct
+  0x08001530: "F9F
+  0x080015cb: 2C|RxI
+  0x080015d2: S@Ct
+  0x080015ef: 1J|;\@
+  0x080015f6: Z@Jt
+  0x0800163f: |!KQ
+  0x0800177e: iF F
+  0x0800193b: " !8F
+  0x08001947:  `p_
+  0x08001979: " ! F
+  0x080019d2: Use Sensor is STH2x
+  0x080019ee: Use Sensor is STH3x
+  0x08001a06: Use Sensor is BH1750
+  0x08001a22: No I2C device detected
+  0x08001a46: Use Sensor is LIDAR_Lite_v3HP
+  0x08001a6a: Use Sensor is ultrasonic distance measurement
+  0x08001a9e: No distance measurement device detected
+  0x08001aca: Use Sensor is TF-series sensor
+  0x08001aee: Use Sensor is HX711
+  0x08001cc7: h bY
+  0x08001d89: " !dH
+  0x08001d9c: c!0F
+  0x08001e00: oO@I
+  0x08001f0b: @Bat:%.3f V
+  0x08001f23: PPB14_status:%d
+  0x08001f3f: BPB14_count1:%u
+  0x08001f54: PB15_status:%d
+  0x08001f68: PA4_status:%d
+  0x08001f7b:  PB15_count2:%u
+  0x08001f90: DS18B20_temp1:%.1f
+  0x08001fa8: DS18B20_temp1:null
+  0x08001fcb:  SHT2x_temp:%.1f,SHT2x_hum:%.1f
+  0x08001ffb:  SHT3x_temp:%.1f,SHT3x_hum:%.1f
+  0x08002020: BH1750_lum:%d
+  0x08002030: DS18B20_temp2:%.1f
+  0x08002048: DS18B20_temp2:null
+  0x08002060: DS18B20_temp3:%.1f
+  0x08002078: DS18B20_temp3:null
+  0x08002098: ADC_PA0:%.3f V
+  0x080020b3:  lidar_lite_distance:%d cm
+  0x080020d2: $@ULT_distance:%.1f cm
+  0x0800212a: HCaI
+  0x08002136:  a2 
+  0x08002168: HCRI
+  0x08002174: `a2 
+  0x080021a6: HCBI
+  0x080021c2: @N i
+  0x08002288: TF_distance:%d cm,TF_strength:%d
+  0x080022cc: ADC_PA1:%.3f V
+  0x080022e0: ADC_PA4:%.3f V
+  0x080022f4: HX711_Weight:%d g
+  0x08002308: PA12_status:%d
+  0x080023d3: "#FiF
+  0x080024b4:  F 0@xiFHp
+  0x080024c6: `lAC
+  0x0800251e: "heh
+  0x08002530: =FR]
+  0x0800259d: Tah@
+  0x080025ad: Tah@
+  0x080025bc: aaah
+  0x08002614: ZT!h@
+  0x0800261b: T`i@
+  0x08002631: p!h(
+  0x08002636: Hpai
+  0x08002657: T"h)
+  0x0800269c: "hsC
+  0x080026df: aAaB`
+  0x080027f1: hDhS
+  0x080028f6: &FhF
+  0x08002a1a: (C`c
+  0x08002d40: 1F(F
+  0x08002d64: 1F(F
+  0x08002d8c: 1F(F
+  0x08002db0: 1F(F
+  0x08002e0d: ")F F
+  0x08002e41: ")F F
+  0x08002e69: F,F0F
+  0x08002e73: @(Cd
+  0x08002ea2: 1F F
+  0x08002f3b: "9F(F
+  0x08002f4b: "9F(F
+  0x08002fcb: "9F(F
+  0x08002fdb: "9F(F
+  0x08002fe9: "9F(F
+  0x08002ff9: "9F(F
+  0x08003013: "9F(F
+  0x08003023: "9F(F
+  0x0800307a: d!0F
+  0x0800310a: )F(1
+  0x08003120: )F81
+  0x08003140: ~O\7
+  0x08003190: @60u
+  0x0800319e: lphx
+  0x080031cc: ,piF
+  0x08003263:  6L8I(<`p
+  0x0800327d: r F 0
+  0x080033c6: 0V!C5F
+  0x080033d1: Cix,F
+  0x080033d7: C(< y
+  0x08003567: P?J@K
+  0x08003580: jP;I;J
+  0x0800358f: C9J@
+  0x080035af: C3J@
+  0x080035c2: 1H/I
+  0x080035dd: Cbzv
+  0x080035e9: P(I(J
+  0x080035fd: P%I%J
+  0x0800360b: C#J@
+  0x08003640: LORAMAC STATUS ERROR
+  0x080036f4: (<by
+  0x08003723: Nx6(F
+  0x08003750: error in EEPROM Erase operation
+  0x080037a0: error in EEPROM Erase operation
+  0x080037dc: BX)F
+  0x08003808: error in EEPROM Write error
+  0x0800384a: KL`iKO
+  0x080038e2: (x+J
+  0x080039d9: $#CCac
+  0x080039eb: $#CCa
+  0x080039fd: $#CCac
+  0x08003a0f: $#CCac
+  0x08003a1e: Di #
+  0x08003a2e: Ci@$#CCa
+  0x08003abb: HA`@hpG
+  0x08003b1a: )F(1
+  0x08003b30: )F81
+  0x08003ea0: 8!hF
+  0x08003f69: L `ah
+  0x08003f83: F(Fp
+  0x08003f91: F@5(}
+  0x08003f9d:  (u h
+  0x08003fc3:  (u0F
+  0x0800403d: F@61}
+  0x0800407f: b)hI
+  0x080040a5: b)hI
+  0x080040ed: e5u F
+  0x080041c3: C!j"kI
+  0x08004235: a hAi
+  0x0800423e: Aa hAi
+  0x0800429d: F@i%F@5
+  0x08004366: %F@5)}
+  0x08004395: e)u"h
+  0x080043b5: HAhI
+  0x080043bc: A`pG
+  0x080043cb: CA`pG
+  0x080043db: CA`pG
+  0x080043e9: F 2Qy
+  0x08004473: G Fp
+  0x08004512: yID1
+  0x08004520: uIX1
+  0x0800452c: rIl1
+  0x0800453e: nIH`
+  0x0800454f:  (qak
+  0x0800455f: heJ h
+  0x08004580: ]JD2
+  0x0800458e: ZJX2
+  0x0800459c: VJl2
+  0x080045c5: `LI h
+  0x080045e4: DID1
+  0x080045f2: AIX1
+  0x08004600: =Il1
+  0x08004612: 9IH`
+  0x08004617:  hq!k
+  0x08004627: h3J h
+  0x08004648: +JD2
+  0x08004656: (JX2
+  0x08004664: $Jl2
+  0x08004703: F 3Yy
+  0x0800471b: h"h7I
+  0x08004725: hFi)C
+  0x0800472b: i5C)C
+  0x0800473d: C!`/I/L
+  0x08004755: j@hI
+  0x08004772: #L(4
+  0x08004815: &Fq h
+  0x0800486d: IHa `(F
+  0x08004941: CuF.b
+  0x080049c5: C%`eh
+  0x08004a2b: @:@p
+  0x08004a5b: @eF.C
+  0x08004a62: .bMh
+  0x08004a8d: @eF.C
+  0x08004a9f: @5CE`
+  0x08004ab9: @eF.C
+  0x08004ad4: +Mnk&Cnc
+  0x08004b35: @/CeF
+  0x08004b3d: M.hOh
+  0x08004b49: C.`nhOh
+  0x08004bcb: F@2Sx +
+  0x08004bdd: p$$Tp
+  0x08004c03: `  Pp
+  0x08004c12: @lpG
+  0x08004c1e: %F@5hx
+  0x08004c30: .p F
+  0x08004c38: $ hp h
+  0x08004c82: Q`!hJh
+  0x08004c8b: CJ`!h
+  0x08004c95: `ai i
+  0x08004cb9: `fd  hp&c
+  0x08004cd1: F@5hx
+  0x08004cfe: " hp
+  0x08004d48:  hAj`jB
+  0x08004dab: (:F F
+  0x08004dba: !h  
+  0x08004dbf: a!hJh
+  0x08004dc7: @J`hp
+  0x08004de9: F@5hx
+  0x08004e16: ! hp
+  0x08004ec3: (:F F
+  0x08004ed2: !h  
+  0x08004ed7: a!hJh
+  0x08004edf: @J`hp
+  0x08004f01: F@5hx
+  0x08004f3a: " hp@ 
+  0x08004f64: `l.p
+  0x08004fac:  hAj`jB
+  0x08005014: :F F
+  0x08005032: !h  
+  0x08005037: a!hJh
+  0x0800503f: @J`hp
+  0x08005059: F@5hx
+  0x08005092: ! hp@ 
+  0x080050bc: `l.p
+  0x080050ee: :F F
+  0x08005108: ab!h
+  0x08005172: :F F
+  0x08005180:  h !
+  0x08005185: a hBh
+  0x0800518d: @B`ip
+  0x080051bd: L@! F
+  0x0800525c: A` h
+  0x080053d1: apG0
+  0x080053ec: bKcJ@1
+  0x0800541d: &XL6
+  0x08005431: h1@i
+  0x08005443: '1@?
+  0x080054e2: .HhC
+  0x08005626: (i*i
+  0x08005631: C*a*i
+  0x08005637: C*a(a
+  0x08005673: C2`(i
+  0x080056b5: ` x@
+  0x080056f1: ` x@
+  0x08005754: (xKL
+  0x080058a5: @pG|
+  0x080058c5: @pG|
+  0x080059a7: C*`*h
+  0x080059b3: C(``h
+  0x08005a4c: hh!i
+  0x08005ab0: `jih1@
+  0x08005ac2: hhaj
+  0x08005ace: h`hh!
+  0x08005ae5: Ci`hh!
+  0x08005af3: Ch``j
+  0x08005b34: hhaj
+  0x08005b3b: Ch`hh!
+  0x08005b70:  x|N
+  0x08005c33: C2a0i
+  0x08005d49: `(h0C
+  0x08005dc3: hS#cb
+  0x08005dcb: h %,C
+  0x08005dd5: #CbJp
+  0x08005df1: F 5(x
+  0x08005dff:  hp"h
+  0x08005e05:  Pb"hS Pb
+  0x08005e82:  hGb
+  0x08005e87:  hp.p
+  0x08005e96:  hGb
+  0x08005e9b:  hp.p
+  0x08005f1c: @$!@
+  0x08005f4a: %F 5hx
+  0x08005f5b:  (p F
+  0x08005f65:  hp!h
+  0x08005f6b:  Hb!hS Hb F
+  0x08005f9b: C#i3C
+  0x08005fd7: d hAb
+  0x08006049: F 60x
+  0x08006059:  pp h
+  0x080060a9:  Hb!hS Hb
+  0x0800613e: Hd h
+  0x0800618b:  pp7p
+  0x080061d3:  pp7p
+  0x080061e9: F 5(x
+  0x080061f9:  hpXx
+  0x08006253:  Hb!hS Hb F
+  0x0800626b: @ hF` h
+  0x08006293:  hp/p
+  0x080062a3:  hp/p
+  0x080062b5: F 60x
+  0x080062c5:  pp h
+  0x08006327:  Hb!hS Hb F
+  0x08006381:  pp7p
+  0x08006391:  pp7p
+  0x080063da: %F@5h|
+  0x080063ec: .t F
+  0x080063f5:  ht h
+  0x08006403: h`h"i
+  0x08006439: C!hH`!h
+  0x08006464: &F@6p|
+  0x0800646e: p|"(~
+  0x08006487:  0tp|
+  0x08006496: 2 ptge
+  0x080064e1: Bahf
+  0x080064f4:  k!h
+  0x08006542:  k!h
+  0x080065c6: !c!h
+  0x0800661a: !c!h
+  0x080066d0: `m !
+  0x0800672d:  pGp
+  0x08006736: %F 5h}
+  0x08006747:  (u F
+  0x08006751:  hu!
+  0x080067ad: h!FS
+  0x080067d8: ```h
+  0x080067f5: F 60}
+  0x08006814: +h){ h
+  0x080068c6: (y!h
+  0x080068e3: CgF?
+  0x08006915: F 4au
+  0x08006931:  `u u
+  0x08006942: %F 5h}
+  0x08006953:  (u F
+  0x0800695d:  hu!
+  0x08006a53:   u h
+  0x08006a70: %u h
+  0x08006a8b:   u h
+  0x08006aaa: %u h
+  0x08006ac5:   u h
+  0x08006ae2: %u h
+  0x08006afd:   u h
+  0x08006b1c: %u h
+  0x08006b5a: pGpG
+  0x08006bcd: r$"Jr
+  0x08006bdb: `  Hr
+  0x08006bf1: F`5(z
+  0x08006bff: #+r$ hr h
+  0x08006c2c: !hjF
+  0x08006c39: CH` hAhjF
+  0x08006c4b: CA` h
+  0x08006c74:   hr
+  0x08006c79:  (r0F
+  0x08006c84: pGpG
+  0x08006cb9: @7C^
+  0x08006dd2: %F`5hz
+  0x08006de3:  (r F
+  0x08006dec: $ hr h
+  0x08006e10:  hAh
+  0x08006e19: CA` h
+  0x08006e3d: h0I0L
+  0x08006e69: c$!hF
+  0x08006e80:  k0C c k0@
+  0x08006ea5:  !b a
+  0x08006eab:  `` F
+  0x08006f1b: z ,D
+  0x08006fb9: h I L
+  0x0800705d: F`6pz
+  0x08007065: F (X
+  0x0800709b: f! pr
+  0x080070a6: 'F@7
+  0x080070de: !h(x
+  0x080070f1: "@! F
+  0x08007112:   pr
+  0x08007125: F`5hz (;
+  0x08007155:  (r F@0
+  0x08007165: f! hr!n
+  0x08007179: HHc n
+  0x08007185: l:F(2 n
+  0x08007190: !h@ 
+  0x08007195: b.r h
+  0x080071bb: F`3\z ,#
+  0x080071f7: f!"Zr
+  0x0800725d: HAkB
+  0x08007299: L`ke
+  0x0800729e: (C`c
+  0x080072f5: Cac|
+  0x08007439: !@B(
+  0x08007469: iIjP@H@pG
+  0x0800750d: ppG@
+  0x080075af: Ihx="
+  0x080075b9: F<:p
+  0x080075d7: I<"HCax
+  0x080075df: #QC"x
+  0x080076aa: Ha F
+  0x080076e7:  (^$
+  0x0800770d: IDaA`
+  0x0800775b: L F!
+  0x08007780: =HP8@n
+  0x080077c4: jFTy
+  0x080077ce: <9<)
+  0x0800781c: iFJx'
+  0x08007837: I,9J`
+  0x08007998: jF@!0F
+  0x080079a5: "@!0F
+  0x080079ae: jF !0F
+  0x080079bb: " !0F
+  0x080079c6: jF!F0F
+  0x080079d3: "!F0F
+  0x080079fe: jF ! F
+  0x08007a08: jF@! F
+  0x08007a24: jF)F F
+  0x08007a2f: ")F F
+  0x08007a54: 1F8F
+  0x08007a6a: 1F8F
+  0x08007a75: "1F8F
+  0x08007a9c: )F0F
+  0x08007aa9: ")F0F
+  0x08007b5c:  '%F@5 h
+  0x08007b9c:  hAh
+  0x08007ba7:  `dop
+  0x08007bda: :F F
+  0x08007bfd: b:F F
+  0x08007c13: "@! F
+  0x08007c44: :F F
+  0x08007c67: b:F F
+  0x08007ca7: C0@!C
+  0x08007cad: Ci`p
+  0x08007cd8:   @5hp
+  0x08007d09: F@5*
+  0x08007d2d: a hAh
+  0x08007d35: @A`gdnp
+  0x08007d56: `l0C`dnp/p
+  0x08007d82: 2F)F F
+  0x08007da2: al  
+  0x08007da7: Cad@4`p
+  0x08007dd0: 2F)F F
+  0x08007df4: al  
+  0x08007df9: Cad@4`p
+  0x08007e23: "!F(F
+  0x08007e3f: "!F(F
+  0x08007e4d: "!F(F
+  0x08007e71: "!F(F
+  0x08007e8d: "!F(F
+  0x08007e9b: "!F(F
+  0x08007eb3: '%F?
+  0x08007ebd: "1F8F
+  0x08007ecb: "1F8F
+  0x08007f6f: "1F8F
+  0x08007f93: "1F8F
+  0x08007fa1: "1F8F
+  0x08007fd4: !F(F
+  0x08007fe0: 1F(F
+  0x08007fed: "!F(F
+  0x08007ffb: "1F(F
+  0x08008019: "!F(F
+  0x08008025: "1F(F
+  0x08008033: "!F(F
+  0x0800803d: "1F(F
+  0x0800805c: 1F(F
+  0x0800806c: 9F(F
+  0x0800808a: 1F(F
+  0x08008097: "9F(F
+  0x08008128: switch to class %c done
+  0x0800819f:  JOINED
+  0x080081b6: 4Laa
+  0x080081e7: p@H?I
+  0x080081ed: `@IA`@I
+  0x0800820d: 5(p`i
+  0x08008213: x(q(F
+  0x0800821d:  (p`i
+  0x08008223: x(q(F
+  0x0800822d:  (p(q(F
+  0x08008238: `iAx Fh0-L
+  0x0800828e: LSN50 Device
+  0x080082a0: Image Version: v1.8.1
+  0x080082b8: LoRaWan Stack: DR-LWS-007
+  0x080082d4: Frequency Band: 
+  0x080082fc: Please set the parameters or reset Device to apply change
+  0x0800833a: $I$M
+  0x08008343: p)x.F(>
+  0x08008351: !!p`` F
+  0x08008361: h`` F
+  0x0800836b:   p(F(0`` F
+  0x0800837b:   p(F80`` F
+  0x0800838b:   p q F
+  0x080083f5: $hF'F
+  0x08008463: $Dt2ypy1h
+  0x08008473: O(x 7 (v
+  0x08008489: 880E
+  0x080084de: DrQC
+  0x080086a9: CiHAd
+  0x080086ea: YMhw
+  0x0800871f: p0h@x
+  0x0800873b: p0h@x
+  0x0800881a: hy)y
+  0x0800889a: QHACOH
+  0x080088bc: IH@z
+  0x080088c6: hx8q
+  0x080088ec: ;H>Id8
+  0x080088f6: ;M8H)kd8
+  0x08008902: 6Hd8
+  0x0800890a: 4H<8
+  0x08008913:  hr5
+  0x08008948: 0hA]-
+  0x080089a0: 5hm\
+  0x080089f0: Receive data
+  0x08008a04: %02x 
+  0x08008a0c: BuffSize:%d,Run AT+RECVB=? to see detail
+  0x08008b47: @pGpG
+  0x08008d8e: "F)F
+  0x08008e01: paw!faf
+  0x08008e0d: p8FiF
+  0x08008e2f: !(phF
+  0x08008e9e: /F 7xp
+  0x08008ee8: xs !hF
+  0x08008ef8: (c!!hF
+  0x08008f19:  (r(F
+  0x08008f1f: !88A`
+  0x08008f2f: aiiAa
+  0x08008f44: (F"I80
+  0x08008f4e: }!(F
+  0x08008fae: &w)n0F
+  0x08009075: "9FlF@
+  0x080090a5: "9F`
+  0x080090b9: J1FhF
+  0x080090eb: J!F(F
+  0x080090f8: !F(F
+  0x08009145: !Ap8H
+  0x080091f3: { 9Hp;F
+  0x08009242: 9I'x7H
+  0x0800925b:  #%')0;9BFHJLNPRVTXZ\^`bd
+  0x0800927d: z qM
+  0x0800928b: m``F
+  0x080092a6:  I 9Hl
+  0x080092af: ```4
+  0x080092bd: o@ha`
+  0x0800934f: N:x0F 0
+  0x0800936a: !$'*-3<A
+  0x080093e0: 8y(w
+  0x080093ea: 8yhw
+  0x080093f0: 9zjF
+  0x08009409: h 9xh
+  0x08009427: !AV2zsh
+  0x08009436: 8ppjx`
+  0x0800943e: :F@{8th
+  0x0800944d: t,29F
+  0x0800946e: 9zjF
+  0x08009487: h 8zh
+  0x080094c8: xh0aj
+  0x080094ce: xhpag
+  0x080094e0: 9yjF
+  0x080094f5: y.H80ApR
+  0x08009500: 9yjF
+  0x08009515: yppD
+  0x0800951a: 9yjF
+  0x0800954a: 9yjF
+  0x08009578: xh(c
+  0x0800957e: xhhc
+  0x08009585: Hyh80A`q`
+  0x08009591: H9y80
+  0x0800959c: xhpc
+  0x080095d9: &Np[O x$7
+  0x080095f4: UM(l
+  0x08009654: "t=M |hp+pah
+  0x0800968c: # iF
+  0x08009698:  t8x
+  0x0800969f: C8p+H!x
+  0x080096b1: hhe |%LiF 4
+  0x080096c9: xiF@
+  0x080096ff: @8p(F{
+  0x0800973d: C8p"{
+  0x08009781: "1F1H
+  0x080097f9: \z\@
+  0x0800985b: FBxiF
+  0x08009869: {!|@
+  0x08009884: 89JxhF
+  0x0800988d: xAt H
+  0x0800989d: t F80
+  0x080098eb: &%thF
+  0x080098f1: !AV2F
+  0x0800996d:  pGpG
+  0x08009981: N(p0p`x
+  0x080099d2: 1phFBq!{
+  0x08009b3c: On Certif tx next packet
+  0x08009beb: s#}Sq
+  0x08009bf9: O2CP?
+  0x08009c14: 9xb|
+  0x08009c39: @0pR
+  0x08009c3e: %cet
+  0x08009c4f: cet z
+  0x08009c5c:  c l@
+  0x08009d02: eu%s!z
+  0x08009d0f: sa~yJq
+  0x08009d26: !c!}Aq l@
+  0x08009d42: eu }
+  0x08009d52:  uiH
+  0x08009d6a: cN k
+  0x08009da4:  :TH
+  0x08009dc3: w }NN
+  0x08009dcc: $!hF
+  0x08009dd5: sqxAs
+  0x08009df5: s!lI
+  0x08009dfc: !d%s
+  0x08009e01: q!}Aqqx
+  0x08009e13: sa~8Jq
+  0x08009e42:  d(H
+  0x08009e4d: q!}Aq
+  0x08009e58:  c l
+  0x08009e9b: G(x@
+  0x08009ea2: (p(x
+  0x08009eb9: @(p(x
+  0x08009f80: 0xiF
+  0x0800a007: HBm(F
+  0x0800a042: hy)y
+  0x0800a074: 8r({
+  0x0800a083:  (a}!
+  0x0800a08a: HC(a@
+  0x0800a0df: 0Apg
+  0x0800a0e4: y{hF
+  0x0800a0f1: yhFAs
+  0x0800a17d:  xq0
+  0x0800a182: pIOk2\iF
+  0x0800a201: !Ac5
+  0x0800a26b: 8ApGa%
+  0x0800a297: sOa*IXp
+  0x0800a2f1:  hqv
+  0x0800a2ff: =*pIk
+  0x0800a3a6: <I<K
+  0x0800a431: 8ApC
+  0x0800a4d0: BpJp
+  0x0800a4dc: BpJp n
+  0x0800a4ec: (x0C(pp
+  0x0800a530: BpJp
+  0x0800a542: BpJp n
+  0x0800a552: (x0C(pp
+  0x0800a578: 6H@k
+  0x0800a584: 2M`z$5
+  0x0800a590: 1H!o
+  0x0800a5a4: ,Hao
+  0x0800a5d4:  HP0
+  0x0800a5e9: !|0Gp
+  0x0800a5ef: 0Ap(x
+  0x0800a601: C(p(x
+  0x0800a632: &f {
+  0x0800a63b: H|0Gp`|@
+  0x0800a6c2: (4 p F
+  0x0800a6cd: p@{ th
+  0x0800a73c: .F(p
+  0x0800a741: >pjh`(F
+  0x0800a749: 8@{(t`
+  0x0800a7b3: C d F$0
+  0x0800a7ce:  F 0
+  0x0800a7d3: xiF@
+  0x0800aa37: s!xpH
+  0x0800aa3e: iFJsqJ
+  0x0800aa75: CaI pI{
+  0x0800aa83: !Qs !
+  0x0800aa89: C p[H
+  0x0800aa9f: q!xAqUI
+  0x0800aaf9: C p@JCLPq
+  0x0800ab0a: #\SUm
+  0x0800ab52: +JWUm
+  0x0800ab8b: s#kR
+  0x0800aba1: y vev
+  0x0800abb1:  nF"k
+  0x0800ac9d: \Jr@
+  0x0800acdd: {hFAsqx
+  0x0800acef: xhFAt
+  0x0800ad1d: z0phF
+  0x0800ada9: 52F)F
+  0x0800aea0: hFAp
+  0x0800aed9: Fd!HC
+  0x0800aee0: \HiF
+  0x0800af04:  8BbhFBx
+  0x0800af6d: Cd"QC
+  0x0800af7d: \iF@
+  0x0800af90: 0HiF
+  0x0800afc0: HC!I}" 9
+  0x0800afdd: ]jFd
+  0x0800b019: shFAx
+  0x0800b020: AshF
+  0x0800b063:  ADR Message:
+  0x0800b074: Channel is 
+  0x0800b080: CH%d_%d 
+  0x0800b08c: TX Datarate too small for this payload size, change to %d
+  0x0800b0c8: TX Datarate change to %d
+  0x0800b0e4: TxPower change to %d
+  0x0800b0fc: NbRep change to %d
+  0x0800b114: Received: ADR Message
+  0x0800b16b: Fd!HC
+  0x0800b227: CpGp
+  0x0800b273: %AVEWBh
+  0x0800b288: Bh@*
+  0x0800b2a6: $#jF
+  0x0800b2bf: $9p5p F
+  0x0800b344: lF`R
+  0x0800b36c: jZcZ@
+  0x0800b3de: pG@D
+  0x0800b3f0: BxiF
+  0x0800b465: "$0!h
+  0x0800b4b8: 0F9F
+  0x0800b4ff: ACEHJLO
+  0x0800b507: VXZ\_ac
+  0x0800b653: %<I*FMp<IP&
+  0x0800b66b: '{C[
+  0x0800b676: ]r@*
+  0x0800b67c: @ 4Of#4JBC
+  0x0800b696: UrH(
+  0x0800b6c0: %K&OSC
+  0x0800b782:  hiF@
+  0x0800b7f1: yBrBx
+  0x0800b801: yBs"z
+  0x0800b819: !AvWH
+  0x0800b827: !ApkF
+  0x0800b883: RnF3
+  0x0800b899: RnF3
+  0x0800b8ad: SnF3
+  0x0800b8cf: SnF3
+  0x0800b8ec: "I"J
+  0x0800b953: phFAx
+  0x0800b9c6: 9HEp
+  0x0800ba12: 'J$I
+  0x0800ba8e: @00p
+  0x0800babb: FEWFh
+  0x0800bad6:  x/I@
+  0x0800bade: HC.IF
+  0x0800bae4: .H+O@W
+  0x0800baec: yi0F
+  0x0800bb25: Hz0@]
+  0x0800bb50: *F1F
+  0x0800bb7c: +F2F!F
+  0x0800bba7:  [%lu]
+  0x0800bbb0: RX on freq %d Hz at DR %d
+  0x0800bbd0: RX on freq %d.%d MHz at DR %d
+  0x0800bc1f: I@B(
+  0x0800bc65: @ Fp
+  0x0800bce0: Cl(F
+  0x0800bcfb: #=NZC
+  0x0800bd04:  V:IRz;K
+  0x0800bd15: %aVUW
+  0x0800bd37: !HC0I0XIi
+  0x0800bd69: G#I x
+  0x0800bd7f: F9F!
+  0x0800bda5: !HC0X I
+  0x0800bdc1: V2F9F
+  0x0800be07:  [%lu]
+  0x0800be10: TX on freq %d Hz at DR %d
+  0x0800be30: TX on freq %d.%d MHz at DR %d
+  0x0800bed2: "F)F0F
+  0x0800bf0d: F!F(F
+  0x0800bf87: iHC@
+  0x0800c052: *F3F
+  0x0800c062: *F3F
+  0x0800c08c: *F3F
+  0x0800c0a1: "(F1F
+  0x0800c0aa: :F#F
+  0x0800c0de: *F#F
+  0x0800c1ab: Id pG
+  0x0800c1c9: 'axeW
+  0x0800c1f1:   Vai
+  0x0800c215: VaV(F
+  0x0800c28c: J`pG
+  0x0800c35b:  pGp
+  0x0800c36c: "F)F0F
+  0x0800c3ca: "F)F0F
+  0x0800c3fa: "F)F0F
+  0x0800c459: F!F(F
+  0x0800c4b7: pTx\p
+  0x0800c4bd: F 4ex 3]p
+  0x0800c4c7: FX=.F7F|7
+  0x0800c4d5: dnd%{
+  0x0800c4db: sd{\s ;
+  0x0800c4e5: cSk8:Sc
+  0x0800c554: @$ C
+  0x0800c69c: hF@y
+  0x0800c770: hF@y
+  0x0800c86e: 1F&F@6
+  0x0800c890:  hAh
+  0x0800c897: CA` h
+  0x0800c8da:  hBh
+  0x0800c8e1: CB` h
+  0x0800c915: IH`pG
+  0x0800c933: H@h@h
+  0x0800c963: $Hl%F
+  0x0800c99f: $%F' 
+  0x0800c9b8: TJ 2
+  0x0800c9cc: "F+F
+  0x0800ca33: F F)F
+  0x0800ca62: "F+F
+  0x0800cace: 8F1F
+  0x0800cae0: "F+F
+  0x0800cba7: qhh@h
+  0x0800cc96: (Fch
+  0x0800cd28:  Fh0
+  0x0800cd71: N 60y
+  0x0800cd9a: 0F\0
+  0x0800cdb8: 0Fp0
+  0x0800cdcf: G5tut
+  0x0800ce14: jH|0
+  0x0800ce6a: UH%q
+  0x0800ce76: %qQH|0
+  0x0800cea0: `78p
+  0x0800ceab: !yVGJ
+  0x0800cef8: 9y3H
+  0x0800cf06: %q-H|0
+  0x0800cf25: ^9y'H
+  0x0800cf2b: G(O8x
+  0x0800cf41: F!F$
+  0x0800cf4e: $L x
+  0x0800cf6e: "!q^#
+  0x0800cfd7:  [%lu]
+  0x0800cfe3:  rxDone(ACK)
+  0x0800cff4: rxDone
+  0x0800d000: Rssi= %d
+  0x0800d00c: txDone
+  0x0800d01a: ;L%F!y
+  0x0800d058: +H|0
+  0x0800d069:   q'H
+  0x0800d089: F!F!
+  0x0800d113:  [%lu]
+  0x0800d11c: rxTimeOut
+  0x0800d12a: )M)L)F
+  0x0800d131: F*y@0Iy
+  0x0800d17d: & 4&t`|
+  0x0800d188:  Fp0
+  0x0800d24e: .M(y
+  0x0800d2b7: $ 64ttt
+  0x0800d2d8: 0F,qp0
+  0x0800d460: hF3M
+  0x0800d48e: 1F(H
+  0x0800d4b1: %@0@}
+  0x0800d57c: jF)F
+  0x0800d58b: ")F0F
+  0x0800d59d: ")F0F
+  0x0800d5b8: jF)F
+  0x0800d5c7: ")F0F
+  0x0800d5e5: `1F(F
+  0x0800d5ef: F0F`C(
+  0x0800d63e: )F# 
+  0x0800d64c: )F2 
+  0x0800d6e3: G`hAi(F
+  0x0800d7c2: )FM 
+  0x0800d7f8: tLh<`y
+  0x0800d808: pM@ H=
+  0x0800d849:  (tht
+  0x0800d854: ]M(=h}
+  0x0800d8a2: %,3===A
+  0x0800d8be: H!/ 
+  0x0800d8cc: D!/ 
+  0x0800d8da: D!/ 
+  0x0800d8e8: D!/ 
+  0x0800d8f6: D!/ 
+  0x0800d904: D!/ 
+  0x0800d918: @!/ 
+  0x0800db0d: dDd@5
+  0x0800dbf0: )}$ 
+  0x0800dcd6: (H!F
+  0x0800dce0: %L|<`y
+  0x0800dd40: @ @1
+  0x0800dd6f: F@1@ 
+  0x0800dd8e: vH@h
+  0x0800ddab: F@4"p
+  0x0800de5f: C1 q
+  0x0800dec8: !}$ 
+  0x0800e0a8: `fFH 0
+  0x0800e0b4: DM`n
+  0x0800e0ba: ixhF
+  0x0800e0c5: zAs/F>N n87d6
+  0x0800e0d6: xxhpiF
+  0x0800e11f: !*zqV
+  0x0800e14e:  ghi
+  0x0800e164:  l0C d
+  0x0800e191: J1C!d
+  0x0800e1eb: NhF1x
+  0x0800e20c: !FX1Hq
+  0x0800e240: X61h
+  0x0800e294: `piF`x
+  0x0800e2bd: qhF1h
+  0x0800e316: X61h
+  0x0800e36a: `piF`x
+  0x0800e38f: qiF0h
+  0x0800e3ae: AriF
+  0x0800e3c0: X61h
+  0x0800e3cc: 1hHp
+  0x0800e40a: `piF`x
+  0x0800e421: CmIX1
+  0x0800e438: gHX0
+  0x0800e460: X61h
+  0x0800e472: 6h[I0r
+  0x0800e484: prWI
+  0x0800e49c: NIX1
+  0x0800e4ac: X61h
+  0x0800e4b8: HpJI
+  0x0800e500: `piF`x
+  0x0800e53a: 6h)I0r
+  0x0800e562: X61h
+  0x0800e5b6: `piF`x
+  0x0800e64e: 1hHqhF
+  0x0800e65f: q l2h
+  0x0800e6f1: piF`x
+  0x0800e736: HphI
+  0x0800e77e: `piF`x
+  0x0800e7ac: 6h0r
+  0x0800e7cc: HpCI
+  0x0800e900: >CoF>q
+  0x0800e93d: qxxHq8x
+  0x0800e94a: xk3L
+  0x0800e96c: &p4H
+  0x0800e9b1: KjFD3
+  0x0800e9c5: 8Epzx
+  0x0800e9d5: `J`}!
+  0x0800ea09: G l(C d
+  0x0800ea24: JoinRequest NbTrials= %d
+  0x0800ea46: [%lu]
+  0x0800ea4e: Please use AT+DEBUG to see debug info
+  0x0800ea78: ***** UpLinkCounter= %u *****
+  0x0800eacd:  X1HqhF
+  0x0800eadf: xPphF
+  0x0800eb2d: Jd!X2
+  0x0800eb43: hv\>T
+  0x0800eb7b: IKxSp
+  0x0800ebcd: FKla
+  0x0800ec14: 8!hF
+  0x0800ef6f: F,`l`p
+  0x0800ef97: &`h `&r
+  0x0800efaa: !`8h
+  0x0800f0dd: C(FC
+  0x0800f1d3: C"CZ`
+  0x0800f254:   `4`r
+  0x0800f26f: F@1J
+  0x0800f27f: j%F`5hz
+  0x0800f315: ` !`0
+  0x0800f327: ` !`0ArpGp
+  0x0800f367: @Cm]
+  0x0800f3c9: h5FxK
+  0x0800f3d3: ` hAh
+  0x0800f3e1: CA`sJ!h
+  0x0800f3fd: `nJ hnI
+  0x0800f472: PKQI"h@9
+  0x0800f5ed: F@2Q
+  0x0800f67d: `  `4`r
+  0x0800f836: jF!F(F
+  0x0800f841: "!F(F
+  0x0800f869: KjF!F(F
+  0x0800f8cb: FnC7
+  0x0800f8d4: yA&FnC
+  0x0800f8ed: Fc][
+  0x0800f90c: pGpG
+  0x0800f932: QHQJ
+  0x0800f949: &MOMI
+  0x0800f994: 2F;F
+  0x0800f9a4: 2F;F
+  0x0800f9f9: "%K F1F
+  0x0800fabc: 0x*(
+  0x0800fad1: #YC09@
+  0x0800fafc: 0x.(
+  0x0800fb05: Cpxv
+  0x0800fb19: !OC0?
+  0x0800fb2c: 0xl(
+  0x0800fc68: !F8F
+  0x0800fc9c: !F8F
+  0x0800fd02: +!jF
+  0x0800fd84: @!jF
+  0x0800fd94: 0!jF
+  0x0800fdb8: 0!jF
+  0x0800fea0: 0123456789abcdef
+  0x0800feb4: 0123456789ABCDEF
+  0x0800fff8: Q\0)
+  0x0801009d: p0x !
+  0x08010190: 9F  
+  0x080101d9: pHh@
+  0x080101de: H`pG
+  0x080101f6: *FhF
+  0x08010224: iF0F
+  0x08010288: 8F 8
+  0x0801029c: )F0F
+  0x080102d7: 2QCH@
+  0x0801030e: Q@yp
+  0x080103db: "iF F
+  0x0801040d: "iF F
+  0x08010441: "iF F
+  0x080104fe: Stop Tx events,Please wait for all configurations to print
+  0x0801055a: Start Tx events
+  0x08010586:  N I=F<F
+  0x0801059a: *F3F
+  0x080105af: '*F3F
+  0x080105be: "F(F1F
+  0x0801060f: ?%.1f 
+  0x08010623: ?Use default channel
+  0x08010684: Error Subband, must be 0 ~ 8
+  0x080106a4: Attention:Take effect after ATZ
+  0x0801072b:  Enter Debug mode
+  0x08010798: %hhu
+  0x080107a0: Attention:Take effect after AT+ADR=0
+  0x080107e3: "iF F
+  0x08010815: "iF F
+  0x08010890: Attention:Take effect after ATZ
+  0x08010993:  Attention:Take effect after ATZ
+  0x08010a2f:  INTMode1 of range is 0 to 3
+  0x08010a9b:  INTMode2 of range is 0 to 3
+  0x08010b07:  INTMode3 of range is 0 to 3
+  0x08010b8c: Attention:Take effect after ATZ
+  0x08010c08: Attention:Take effect after ATZ
+  0x08010c7f:  Attention:Take effect after ATZ
+  0x08010ca4: Mode of range is 1 to 9
+  0x08010ce3: xEx2F+F9F
+  0x08010cfc: %02x %02x %02x %02x
+  0x08010d1f: "lF(F
+  0x08010d80: Attention:Take effect after ATZ
+  0x08010deb: "iF F
+  0x08010e9f:  The RJTDC range is 1 to 65535
+  0x08010f0b:  The response level range is 0 to 5
+  0x08010f67:  %d:
+  0x08010fb3:  %d:
+  0x08010fbb:  %02x 
+  0x08011070: %hhu
+  0x08011154: %d,%lu
+  0x08011184:  x08
+  0x0801118c:  x:(
+  0x080111a9: L*F h
+  0x080111d0: AT+SEND without the application port
+  0x08011224:  x08
+  0x0801122c:  x:(
+  0x08011244: :\iF
+  0x0801124c: @xHp0h
+  0x08011294: AT+SEND without the application port
+  0x080112bf:  %hhx
+  0x08011313:  TDC setting must be more than 6S
+  0x08011390: %hhu
+  0x08011398: Attention:Take effect after AT+ADR=0
+  0x08011413: F#x*x
+  0x0801142b:  %d,%d,%d
+  0x0801149d: y(p4p
+  0x080114ad: y(phF
+  0x080114bc: %d,%d,%d
+  0x08011504: %hhu
+  0x0801161f:  %d,%d,%d
+  0x0801168c: %d,%lu,%lu
+  0x080116a7:  Attention:Take effect after ATZ
+  0x080116cc: The timeout range is 1 to 65535
+  0x0801178c: 2\iF
+  0x08011794: @xHr:
+  0x080117bf: !hFAq
+  0x080117d8: %hhx
+  0x080117e9: M"x)x
+  0x08011803:  %d,%d
+  0x08011840: %d,%d
+  0x080118f0: ,F.FEp
+  0x08011906: %O`7
+  0x08011918: xz (
+  0x08011939: 9>pY"
+  0x080119b8: v1.8.1 
+  0x080119df:  %0.1f
+  0x08011a1c: "F+F
+  0x08011a34: %d.%d
+  0x08011a60:  !# 
+  0x08011a92: hF@x
+  0x08011abb:  333333
+  0x08011af8:  F(C7
+  0x08011b07: @;@+C1
+  0x08011b6d: C!F(F
+  0x08011ba3: zJv@z
+  0x08011bc1: F x&F
+  0x08011bdd: CPTW\mp
+  0x08011c1b: v'pgp
+  0x08011c2d: yTHAp
+  0x08011c44: MHPI
+  0x08011c4e: KHNI
+  0x08011c6d: pDH@x
+  0x08011cd7: u)HAxhF
+  0x08011d49: Cd AC
+  0x08011d5c: gp x
+  0x08011db7: !!qA~aq
+  0x08011dd2: !q`q
+  0x08011ebc: %hhx
+  0x08011ec4: AT_PARAM_ERROR(Incorrect Length)
+  0x08011f81: pKxTxc@Cp
+  0x08011fa1: qKyTyc@Cq
+  0x08011fc1: rKzTzc@Cr
+  0x08011fe1: sK{T{c@Cs
+  0x08011fff: pJxBp
+  0x0801200f: qJyBq
+  0x0801201f: rJzBr
+  0x0801202f: sJ{Bs
+  0x080120e7: p-"R
+  0x0801217d: $%F;
+  0x08012193: @;@+C1
+  0x080121f9: C!F(F
+  0x0801226a: cz"z
+  0x08012293:  DevEui= %02X %02X %02X %02X %02X %02X %02X %02X
+  0x080122c9: HpG|
+  0x0801236f:  %02x 
+  0x08012389: HpGn
+  0x080123a5: H@xpG
+  0x080124cd: OL<&F
+  0x0801252a: 5puq
+  0x08012549: H5puq(8
+  0x08012578: 5pd 
+  0x0801260f: qbx!y
+  0x0801265e: apay
+  0x080126ac:  }b|
+  0x08012702: %v%ueuet
+  0x08012751: wAC4Huq<0
+  0x0801275e: 2H<0
+  0x08012770: ;HAC,HP0
+  0x0801277c: *HP0
+  0x080127b0:  HaF
+  0x080128bd: HZyE\
+  0x080128d7: \^@u@%pkF
+  0x080128e3: \kF[y
+  0x080128e9: \]@kF
+  0x080128f7: \^@u@epkF
+  0x08012903: \kF[y
+  0x08012909: \]@kF
+  0x08012917: \^@u@
+  0x08012923: \kF[y
+  0x08012929: \]@kF
+  0x08012937: \^@u@
+  0x08012943: \kF[z
+  0x08012949: \]@kF
+  0x08012957: \^@u@%qkF
+  0x08012963: \kF[z
+  0x08012969: \]@kF
+  0x08012977: \^@u@eqkF
+  0x08012983: \kF[z
+  0x08012989: \]@kF
+  0x08012997: \^@u@
+  0x080129a3: \kF[z
+  0x080129a9: \]@kF
+  0x080129b7: \^@u@
+  0x080129c3: \kF[{
+  0x080129c9: \]@kF
+  0x080129d7: \^@u@%rkF
+  0x080129e3: \kF[{
+  0x080129e9: \]@kF
+  0x080129f7: \^@u@erkF
+  0x08012a03: \kF[{
+  0x08012a09: \]@kF
+  0x08012a17: \^@u@
+  0x08012a23: \kF[{
+  0x08012a29: \]@kF
+  0x08012a37: \^@u@
+  0x08012a43: \kF[x
+  0x08012a49: \]@kF
+  0x08012a57: \^@u@%skF
+  0x08012a63: \kF[x
+  0x08012a69: \]@kF
+  0x08012a77: \^@u@eskF
+  0x08012a83: \kF[x
+  0x08012a89: \]@kF
+  0x08012a97: \^@u@
+  0x08012aa3: \kF[x
+  0x08012aa9: \Y@kF
+  0x08012ab7: \B@Q@
+  0x08012aff: LX< F
+  0x08012b0d: "iF F
+  0x08012b3c: AxT)
+  0x08012b4c: QO?)
+  0x08012b62: Jh9X
+  0x08012bce: Ax?)
+  0x08012c9c: +DEUI
+  0x08012ca4: +APPEUI
+  0x08012cac: +APPKEY
+  0x08012cb4: +DADDR
+  0x08012cbc: +NWKSKEY
+  0x08012cc8: +APPSKEY
+  0x08012cd4: +SENDB
+  0x08012cdc: +SEND
+  0x08012ce4: +RXDATEST
+  0x08012cf0: +SETCNT
+  0x08012cf8: +GETSENSORVALUE
+  0x08012d11: {a{ {
+  0x08012d1f: zaz z
+  0x08012d2d: yay y
+  0x08012d3d: xbx!x
+  0x08012d5d: yay y
+  0x08012d6d: xbx!x
+  0x08012d80: %02x %02x %02x %02x %02x %02x %02x %02x
+  0x08012deb:  %FEC
+  0x08012e24: AT%s=
+  0x08012e98: Join Accept:
+  0x08012ea8: Rx1DrOffset:%d
+  0x08012ebc: Rx2Datarate:%d
+  0x08012ed0: ReceiveDelay1:%lu ms
+  0x08012ee8: ReceiveDelay2:%lu ms
+  0x08012f6a: iF F
+  0x08012f73: " ! F
+  0x08013058: AU915
+  0x08013095: K0F9F
+  0x080130af: K F)F
+  0x080130c1: K0F9F
+  0x080130cf: K F)F
+  0x0801318b:  COUNT1 is %u
+  0x0801319c: COUNT2 is %u
+  0x080131e9: sCyBx
+  0x080131ef: \CpCz
+  0x080131f5: \CqC{
+  0x080132a5: "!F(F
+  0x080132fb: "!F(F
+  0x0801330c: %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx
+  0x08013365: "iF(F
+  0x08013373: piFIx
+  0x0801337d: xapiF
+  0x08013383: x!p|
+  0x0801338c: %hhx %hhx %hhx %hhx
+  0x080133a2: /L/Mcy
+  0x08013498: v1.8.1
+  0x080134dc: iFIx
+  0x080134fc: iFIy
+  0x0801350c: iFIx
+  0x0801351a: iF `
+  0x08013528: iF``Hy
+  0x08013543: ```|
+  0x08013589: $(xm
+  0x080135fe: (xh(
+  0x0801366e: 4xA,
+  0x08013676: "F+:
+  0x08013681: PjKjj>>>>>>>>>>j
+  0x080136c4: "Fb:
+  0x080137bb: F/T@
+  0x080137c9: < p!H
+  0x080137d8: (xix
+  0x080138a5:  pGp
+  0x080138c1: %jF1
+  0x080138ca: iF0F
+  0x0801397a: ,F6I
+  0x0801398e: 1F8F
+  0x0801399d: "1F8F
+  0x080139c8: 1F8F
+  0x080139f6: 1F8F
+  0x08013bc9: " ! F
+  0x08013bf3: " ! F
+  0x08013c0b: pBxKxZ@Bp
+  0x08013c2b: qByKyZ@Bq
+  0x08013c4b: rBzKzZ@Br
+  0x08013c6b: sB{K{Z@Bs
+  0x0801446a: 333s
+  0x0801447a: 333s
+  0x08014496: 333s
+  0x080144b4: !$c|w{
+  0x08014511: 9JLX
+  0x08014540: ~=d]
+  0x080145d0: _E#S
+  0x080145d8: =Ll~
+  0x08014678: J\8Ws
+  0x080146e7: Re^(
+  0x08014755: v;VN
+  0x080147b7: @@@@@@@@@AAAAA@@@@@@@@@@@@@@@@@@
+  0x080147e7:           
+  0x0801483c: %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x %02x
+  0x08014890: %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx %hhx
+  0x080148e0: AT+CFS: Get confirmation status of the last AT+SEND (0-1)
+  0x0801491c: AT+CFM: Get or Set the confirmation mode (0-1)
+  0x08014950: AT+RX1WTO: Get or Set the number of symbols to detect and timeout from RXwindow1(0 to 255)
+  0x080149b0: AT+RX2WTO: Get or Set the number of symbols to detect and timeout from RXwindow2(0 to 255)
+  0x08014a10: AT+NJM: Get or Set the Network Join Mode. (0: ABP, 1: OTAA)
+  0x08014a50: AT+DR: Get or Set the Data Rate. (0-7 corresponding to DR_X)
+  0x08014a90: AT+RX2DR: Get or Set the Rx2 window data rate (0-7 corresponding to DR_X)
+  0x08014adc: AT+TXP: Get or Set the Transmit Power (0-5, MAX:0, MIN:5, according to LoRaWAN Spec)
+  0x08014b34: AT+DECRYPT: Get or Set the Decrypt the uplink payload(0:Disable,1:Enable)
+  0x08014b80: AT+DISMACANS: Get or set the MAC ANS switch(0:Enable,1:Disable)
+  0x08014bc4: AT+DISFCNTCHECK: Get or set the Downlink Frame Check(0:Enable,1:Disable)
+  0x08014c10: AT+INTMOD1:Get or Set the trigger interrupt mode for PB14(0:Disable,1:falling or rising,2:falling,3:rising)
+  0x08014c80: AT+INTMOD3:Get or Set the trigger interrupt mode for PA4(0:Disable,1:falling or rising,2:falling,3:rising)
+  0x08014cf0: AT+INTMOD2:Get or Set the trigger interrupt mode for PB15(0:Disable,1:falling or rising,2:falling,3:rising)
+  0x08014d60: AT+PNM: Get or Set the public network mode. (0: off, 1: on)
+  0x08014da0: AT+ADR: Get or Set the Adaptive Data Rate setting. (0: off, 1: on)
+  0x08014de8: AT+RECVB: Print last received data in binary format (with hexadecimal values)
+  0x08014e38: AT+CHE: Get or Set eight channels mode,Only for US915,AU915,CN470
+  0x08014e7e: AT_NO_NETWORK_JOINED
+  0x08014e98: AT+NWKID: Get or Set the Network ID
+  0x08014ec0: AT+DEUI: Get or Set the Device EUI
+  0x08014ee8: AT+APPEUI: Get or Set the Application EUI
+  0x08014f1c: AT+SETMAXNBTRANS: Get or set the max nbtrans in LinkADR
+  0x08014f5a: AT_PARAM_ERROR
+  0x08014f6e: AT_ERROR
+  0x08014f7e: AT_RX_ERROR
+  0x08014f8e: AT_BUSY_ERROR
+  0x08014fa0: ATZ: Trig a reset of the MCU
+  0x08014fc2: AT_TEST_PARAM_OVERFLOW
+  0x08014fdc: AT+VER: Get current image version and Frequency Band
+  0x08015014: AT+CHS: Get or Set Frequency (Unit: Hz) for Single Channel Mode
+  0x08015058: AT+MOD:Get or Set the work mode
+  0x0801507e: ERROR:Not in Range
+  0x08015094: AT+DWELLT: Get or set UplinkDwellTime
+  0x080150bc: AT+<CMD>?        : Help on <CMD>
+  0x080150de: AT+<CMD>         : Run <CMD>
+  0x080150fc: AT+<CMD>=<value> : Set the value
+  0x0801511e: AT+<CMD>=?       : Get the value
+  0x08015144: AT+GETSENSORVALUE: Returns the current sensor value
+  0x0801517c: AT+FDR: Reset Parameters to Factory Default, Keys Reserve
+  0x080151b8: AT+WEIGRE:Set the weight to 0g
+  0x080151dc: AT+DCS: Get or Set the ETSI Duty Cycle setting - 0=disable, 1=enable - Only for testing
+  0x08015238: AT+FCD: Get or Set the Frame Counter Downlink
+  0x08015268: AT+FCU: Get or Set the Frame Counter Uplink
+  0x08015298: AT+JOIN: Join network
+  0x080152b0: AT+RPL: Get or set response level
+  0x080152d4: AT+RJTDC: Get or set the ReJoin data transmission interval in min
+  0x08015318: AT+RXDATEST: Set the downlink data detection
+  0x08015348: AT+DDETECT: Get or set the downlink detection
+  0x0801537a: error unknown
+  0x0801538c: AT+5VT:Get or Set extend the time of 5V power
+  0x080153bc: AT+RX1DL: Get or Set the delay between the end of the Tx and the Rx Window 1 in ms
+  0x08015414: AT+JN1DL: Get or Set the Join Accept Delay between the end of the Tx and the Join Rx Window 1 in ms
+  0x0801547c: AT+RX2DL: Get or Set the delay between the end of the Tx and the Rx Window 2 in ms
+  0x080154d4: AT+JN2DL: Get or Set the Join Accept Delay between the end of the Tx and the Join Rx Window 2 in ms
+  0x0801553c: AT+TDC: Get or set the application data transmission interval in ms
+  0x08015584: AT+CFG: Print all configurations
+  0x080155a8: AT+CLASS: Get or Set the Device Class
+  0x080155d0: AT+DADDR: Get or Set the Device Address
+  0x080155fc: AT+NJS: Get the join status
+  0x0801561c: AT+RECV: Print last received data in raw format
+  0x08015650: AT+RSSI: Get the RSSI of the last received packet
+  0x08015684: AT+SNR: Get the SNR of the last received packet
+  0x080156b8: AT+WEIGAP:Get or Set the GapValue of weight
+  0x080156e8: AT+SETCNT: Get or set the count at present
+  0x08015718: AT+SENDB: Send hexadecimal data along with the application port
+  0x0801575c: AT+SEND: Send text data along with the application port
+  0x08015798: AT+PORT: Get or set the application port
+  0x080157c6: ERROR:Run AT+FDR first
+  0x080157e0: AT+DEBUG:Set more info input
+  0x08015800: AT+RX2FQ: Get or Set the Rx2 window frequency
+  0x08015830: AT+NWKSKEY: Get or Set the Network Session Key
+  0x08015864: AT+APPSKEY: Get or Set the Application Session Key
+  0x0801589c: AT+APPKEY: Get or Set the Application Key
+  0x080158c8: +INTMOD1
+  0x080158d4: +INTMOD2
+  0x080158e0: +INTMOD3
+  0x080158ec: +SENDB
+  0x080158f4: +RECVB
+  0x080158fc: +TDC
+  0x08015904: +RJTDC
+  0x0801590c: +FCD
+  0x08015914: +NWKID
+  0x0801591c: +SEND
+  0x08015924: +MOD
+  0x0801592c: +CHE
+  0x08015934: +WEIGRE
+  0x0801593c: +GETSENSORVALUE
+  0x0801594c: +CFG
+  0x08015954: +DEBUG
+  0x0801595c: +RSSI
+  0x08015964: +DEUI
+  0x0801596c: +APPEUI
+  0x08015974: +DISFCNTCHECK
+  0x08015984: +JN1DL
+  0x0801598c: +RX1DL
+  0x08015994: +JN2DL
+  0x0801599c: +RX2DL
+  0x080159a4: +RPL
+  0x080159ac: +CFM
+  0x080159b4: +NJM
+  0x080159bc: +PNM
+  0x080159c4: +JOIN
+  0x080159cc: +RX1WTO
+  0x080159d4: +RX2WTO
+  0x080159dc: +WEIGAP
+  0x080159e4: +TXP
+  0x080159ec: +RX2FQ
+  0x080159f8: +RX2DR
+  0x08015a00: +ADR
+  0x08015a08: +DADDR
+  0x08015a10: +FDR
+  0x08015a18: +VER
+  0x08015a20: +SNR
+  0x08015a28: +DCS
+  0x08015a30: +CFS
+  0x08015a38: +CHS
+  0x08015a40: +NJS
+  0x08015a48: +DISMACANS
+  0x08015a54: +SETMAXNBTRANS
+  0x08015a64: +CLASS
+  0x08015a6c: +DDETECT
+  0x08015a78: +DWELLT
+  0x08015a80: +SETCNT
+  0x08015a88: +DECRYPT
+  0x08015a94: +PORT
+  0x08015a9c: +RXDATEST
+  0x08015aa8: +5VT
+  0x08015ab0: +FCU
+  0x08015ab8: +RECV
+  0x08015ac0: +APPKEY
+  0x08015ac8: +NWKSKEY
+  0x08015ad4: +APPSKEY
